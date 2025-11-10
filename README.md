@@ -1,1 +1,1 @@
-# admin-dashboard
+The goal is to create a complete admin-dashboard that looks like the the one in the image provided.
