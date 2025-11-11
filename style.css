@@ -33,7 +33,7 @@ a:hover {
 #sidePanel {
     grid-column: 1;
     grid-row: 1 / span 2;
-    background-color: #0078D4;
+    background-color: #3883bc;
     color: white;
     font-size:20px;
     font-weight: bold;
@@ -70,7 +70,11 @@ ul li a {
 }
 
 #header > div {
-    margin:35px;
+    margin:30px;
+}
+
+#userIdDiv p {
+    font-weight: bold;
 }
 
 #searchDiv, #userIdDiv, #interactButtonsDiv {
@@ -104,6 +108,12 @@ ul li a {
 
 #interactButtonsDiv button {
     margin:5px;
+    background-color: #3883bc;
+    height:40px;
+    width:90px;
+    color: white;
+    border-radius: 15px;
+    border: none;
 }
 
 #content {
