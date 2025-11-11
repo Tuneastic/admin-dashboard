@@ -164,4 +164,44 @@ ul li a {
     grid-column: 2;
     grid-row: 2;
     background-color: #E5E5E5;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#content > div {
+    margin:30px;
+}
+
+#content > div > div {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#sectionProjects {
+    grid-column: 1;
+    grid-row: 1 / 2;
+}
+
+#projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#sectionAnnouncements {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#sectionTrending {
+    grid-column: 2;
+    grid-row: 2;
 }
