@@ -5,10 +5,29 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    scale: 1.2;
+}
+
+#logoUl img, #uiUl img, #miscUl img {
+  filter: invert(1);
+  margin-right:15px;
+}
+
+#sidePanel li {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
 #main {
     display:grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
 }
 
 #sidePanel {
@@ -16,19 +35,75 @@
     grid-row: 1 / span 2;
     background-color: #0078D4;
     color: white;
+    font-size:20px;
+    font-weight: bold;
     display:flex;
     flex-direction: column;
-    gap:50px; 
+    gap:35px; 
 }
 
-#logoDiv, #uiUlDiv, #miscUlDiv {
-    margin-left:20px;
+#logoLi {
     display:flex;
+    align-items: center;
+}
+
+#logoLi p {
+    font-size: 25px;
+}
+
+#logoUlDiv, #uiUlDiv, #miscUlDiv {
+    margin-left:35px;
+    display:flex;
+}
+
+ul li a {
+    display:flex;
+    align-items: center;
 }
 
 #header {
     grid-column: 2;
     grid-row: 1;
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#header > div {
+    margin:35px;
+}
+
+#searchDiv, #userIdDiv, #interactButtonsDiv {
+    display:flex;
+    align-items: center;
+}
+ #welcomeDiv {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#welcomeImg {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+#welcomeP1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#welcomeP2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#interactButtonsDiv {
+    display:flex;
+}
+
+#interactButtonsDiv button {
+    margin:5px;
 }
 
 #content {
