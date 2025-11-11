@@ -20,8 +20,8 @@ a:hover {
 }
 
 #sidePanel li {
-    margin-top:10px;
-    margin-bottom: 10px;
+    margin-top:15px;
+    margin-bottom: 15px;
 }
 
 #main {
@@ -69,11 +69,13 @@ ul li a {
     grid-template-rows: 1fr 1fr;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
+    
 }
 
 #header > div {
     margin-right:40px;
     margin-left: 40px;
+    margin-top:5px;
 }
 
 #userIdDiv p {
@@ -108,6 +110,8 @@ ul li a {
     width: 100%;
     height: 30px;
     border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
 }
 
  #welcomeDiv {
@@ -146,9 +150,9 @@ ul li a {
     margin:5px;
     background-color: #3883bc;
     height:40px;
-    width:90px;
+    width:100px;
     color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
 }
 
