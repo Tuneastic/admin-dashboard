@@ -164,8 +164,8 @@ ul li a {
 #content > div {
     margin:30px;
     position:relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 #sectionAnnouncements, #sectionTrending {
@@ -180,12 +180,12 @@ ul li a {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-label {
+#content > div > label {
     margin-bottom: 5px;
     font-size: 20px;
     font-weight: bold;
     position:absolute;
-    top:-30px;
+    top:-35px;
     z-index: 2; 
 }
 
@@ -208,6 +208,9 @@ label {
 
 .card {
     position:relative;
+}
+.card p {
+    font-size: 14px;
 }
 
 h3 {
